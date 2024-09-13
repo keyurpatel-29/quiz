@@ -3,11 +3,14 @@ const quizData = [
         level: 1,
         questions: [
             { 
+                // img src="elephant.jpeg"
+                image:"",
                 question: "What is Flutter?", 
                 options: ["A database", "A framework", "An operating system", "A web server"], 
                 correct: 1 
             },
             { 
+
                 question: "Who created Flutter?", 
                 options: ["Apple", "Facebook", "Microsoft", "Google"], 
                 correct: 3 
