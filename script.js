@@ -10,7 +10,6 @@ const quizData = [
                 correct: 1 
             },
             { 
-
                 question: "Who created Flutter?", 
                 options: ["Apple", "Facebook", "Microsoft", "Google"], 
                 correct: 3 
@@ -61,7 +60,7 @@ function loadQuiz() {
         optionsContainer.appendChild(optionElement);
     });
     
-    document.getElementById("next-btn").style.display = 'none'; // Hide next button initially
+    document.getElementById("next-btn").style.display = 'none'; 
 }
 
 // Check if selected answer is correct
